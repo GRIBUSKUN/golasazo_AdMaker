@@ -1,0 +1,19 @@
+{
+  "name": "hardysprouts_admaker",
+  "version": "1.0.0",
+  "description": "This is a platafor to make ads for the social media",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GRIBUSKUN/golasazo_AdMaker.git"
+  },
+  "author": "Vogath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GRIBUSKUN/golasazo_AdMaker/issues"
+  },
+  "homepage": "https://github.com/GRIBUSKUN/golasazo_AdMaker#readme"
+}
