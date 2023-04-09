@@ -1,9 +1,10 @@
 const express = require('express')
+const { fileURLToPath } = require('url')
 const app = express()
 const port = process.env.PORT || 80
 app.get('/', (req, res) => {
-    res.type('text/plain')
-    res.send('Server Expresso ☕')
+    res.type('html')
+    res.sendFile(__dirname+'/public/index.html');
 })
 app.get('/about', (req, res) => {
     res.type('text/plain')
