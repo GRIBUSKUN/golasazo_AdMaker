@@ -1,5 +1,4 @@
 const express = require('express')
-const { fileURLToPath } = require('url')
 const app = express()
 const port = process.env.PORT || 80
 app.get('/', (req, res) => {
